@@ -1,0 +1,134 @@
+#title {
+	font-family: helvetica;
+	font-size: 50px;
+	color: midnightblue;
+	vertical-align: bottom;
+	text-align: left;
+}
+#topTable {
+	border: 0px solid black;
+	width: 80%;
+}
+#topTable td {
+	border: 0px solid black;
+	text-align: center;
+}
+#titleHornless, #titleDorned{
+	width: 150px;
+	text-align: right;
+}
+#titleArrow {
+	width: 50px;
+}
+.subTitle {
+	font-family: helvetica;
+	font-size: 30px;
+	color: #5F021F;
+}
+#dornGrid {
+	width: 80%;
+	height: 60%
+}
+#dornGrid td {
+	border: 0px solid black;
+	width: 30%;
+	height: 200px;
+}
+#dorned, #hornless {
+	width: 80%;
+	padding: 10px;
+}
+.hornless {
+	background-image: url(/hornless.jpg);
+	height: 200px;
+	width: 200px;
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.dorned {
+	background-image: url(/dorned.jpg);
+	height: 200px;
+	width: 200px;
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*Dropdown button*/
+.dropbtn {
+    background-color: goldenrod;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #A67E19;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px 8px;
+    z-index: 1;
+    font-family: helvetica;
+    color: white;
+    font-size: 18px;
+    font-style: bold;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content p:hover {
+	background-color: goldenrod;
+	padding: 3px;
+}
+#halt {
+	background-color: #00264d;
+    color: white;
+    width: 300px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+#halt:hover {
+	background-color: midnightblue;
+}
+.start {
+	background-color: #83AE84;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.start:hover {
+	background-color: #4e684f;
+}
+#tableConsole {
+	width: 90%
+}
+#tableConsole td {
+	border: 0px solid black;
+	width: 20%
+}
+.red {
+	background-color: #5F021F;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
